@@ -1,5 +1,7 @@
 ---
+layout: page
 title: Repositories and Projects
+permalink: /repositories/
 ---
 
 There are 4 repositories

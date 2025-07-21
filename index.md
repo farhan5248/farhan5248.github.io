@@ -1,21 +1,31 @@
 ---
 layout: home
-title: Deming Driven Testing
+title: Farhan Sheikh
+permalink: /
 ---
 
-The goal of this site and supporting code is to describe my experiences about applying lean principles and practices to the QA team I led. 
-I've explained more [here](/about).
-A summary of the supporting repositories and projects is [here](RepositoriesAndProjects).
+I'm not a traditional QA professional; I've built, architected and deployed enterprise systems but realised the need to cease dependency on inspection alone meant QA teams had to change significantly.
+Unfortunately there wasn't much information online about how QA teams support developers in ceasing this dependency and so when the opportunity came along to lead the 4 teams, I took it.
+The goal of this site and supporting code is to describe my experiences applying Toyota's lean principles and Dr Deming's System of Profound Knowledge to the QA teams I led for 4 years.
 
-Why Sheep Dog? I'm a dog person and when I heard [Ryan Tierney (Lean Made Simple podcast)](https://youtube.com/clip/UgkxesmBzvq8mTLdD9ATv4epw1bAVDz6Ln6x?si=LrO6ScEXzI4-VbAV) use the sheep dog analogy, it resonated with me. 
-Basically if you send in a bulldog to do the job, it runs into the middle of the flock barking and disrupting everything. 
-With a sheep dog, you never see it; you see the grass around the sheep move, you see the sheep move and everything happens quietly and peacefully. 
-When I thought about how to transform my team, I realised heroic effort was unsustainable and big bang changes were bound to be too much effort. 
-Instead it had to be this gradual organic evolution of our ways of working similar to a sheep dog moving a flock. 
-This approach was inspired by the Improvement Kata which is described in Mike Rother's book, Toyota Kata.
+# Sites
 
-1. [Why run the QA tests earlier?](Why%20run%20the%20QA%20tests%20earlier/index)
-2. [What led me to a QA team?](What%20led%20me%20to%20a%20QA%20team/index)
-3. [Communicating the strategy to QA](Communicating%20the%20strategy%20to%20QA/index)
-4. [Migrating from defect inspection to prevention](Migrating%20from%20defect%20inspection%20to%20prevention/index)
-5. [Recipe for next time](Recipe%20for%20next%20time/index)
+The about section of each of the 4 sites goes into more detail but here's the summary.
+
+1. **farhan5248**: It's just this page and the about, a list of books and Git repos. It's to give an overview of the work and my background.
+
+2. [**Deming Driven Testing**:](demingdriventesting) Covers what the problem was, how I solved it while on the QA team and how I'd do it again.
+
+3. [**Sheep Dog Blog**:](sheepdogblog) I've selected certain episodes from podcasts I listen to with notes about what is relevant to doing the QA transformation.
+
+4. [**Modular Monolith**:](modularmonolith) This describes how I would go about breaking up the monolithic ESB if I had the transformed QA team.
+
+# Documentation
+
+This is a work in progress so I'll be updating it daily/weekly. In general the documentation is divided up as so:
+1. **farhan5248.github.io**: The stories of how the team transformed are here. I'm working to include references to example code in the Git repos and more pictures.
+2. **Prezi**: My first attempt at documentation was this [Prezi](https://prezi.com/view/yNpSiGMbioX8lNp5tS2q/). Unfortunately it's not searchable and was getting too big. I prefer Prezi as it's more visual so I'll update it to reflect the content in the Deming Driven Testing site. 
+3. **GitHub Repo README**: How to build and run the code.
+4. **GitHub Repo Wiki**: Explanations about why I designed things the way I did, roadmap of stuff that's left to implement and notes on how to create/modify the code for first time Xtext or Maven plug-in developers.
+5. **GitHub Repo sheep-dog-qa**: This has the usage notes on how the plug-ins work. It's both the test cases and user manual. I wanted it to be an example of living documentation.
+

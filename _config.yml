@@ -35,6 +35,8 @@ minima:
   skin: auto
 header_pages:
   - about.md
+  - books.md
+  - repositories.md
 plugins:
   - jekyll-feed
   - jekyll-coffeescript
