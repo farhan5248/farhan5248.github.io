@@ -4,9 +4,9 @@ title: Farhan Sheikh
 permalink: /
 ---
 
+The goal of this site and supporting code is to describe my experiences applying Toyota's lean principles and Dr Deming's System of Profound Knowledge to the QA teams I led for 4 years. 
 I'm not a traditional QA professional; I've built, architected and deployed enterprise systems but realised the need to cease dependency on inspection alone meant QA teams had to change significantly.
 Unfortunately there wasn't much information online about how QA teams support developers in ceasing this dependency and so when the opportunity came along to lead the 4 teams, I took it.
-The goal of this site and supporting code is to describe my experiences applying Toyota's lean principles and Dr Deming's System of Profound Knowledge to the QA teams I led for 4 years.
 
 # Sites
 
