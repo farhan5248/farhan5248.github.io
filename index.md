@@ -18,7 +18,7 @@ The about section of each of the 4 sites goes into more detail but here's the su
 
 3. [**Sheep Dog Blog**:](sheepdogblog) I've selected certain episodes from podcasts I listen to with notes about what is relevant to doing the QA transformation.
 
-4. [**Modular Monolith**:](modularmonolith) This describes how I would go about breaking up the monolithic ESB if I had the transformed QA team.
+4. [**Modular Monolith**:](modularmonolith) This describes how I would go about breaking up a monolithic ESB.
 
 # Documentation
 
