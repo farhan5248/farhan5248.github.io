@@ -43,6 +43,9 @@ I also tried to use analogies.
 Hopefully this makes it easier for someone else who's interested in doing similar things.
 
 # Why Sheep Dog? 
+  
+![Sheep Dog](assets/images/sheepdog.jpg)
+*Not a sheep dog, but my Woolly Malamute*
 
 Originally the approach I took was inspired by the Improvement Kata which is described in Mike Rother's book, Toyota Kata.
 Later when I heard [Ryan Tierney (Lean Made Simple podcast)](https://youtube.com/clip/UgkxesmBzvq8mTLdD9ATv4epw1bAVDz6Ln6x?si=LrO6ScEXzI4-VbAV) use the sheep dog analogy, it resonated with me since I'm a dog person. 
