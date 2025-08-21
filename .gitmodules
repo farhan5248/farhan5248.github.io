@@ -1,0 +1,9 @@
+[submodule "sheepdogblog"]
+	path = sheepdogblog
+	url = https://github.com/farhan5248/sheepdogblog.git
+[submodule "demingdriventesting"]
+	path = demingdriventesting
+	url = https://github.com/farhan5248/demingdriventesting.git
+[submodule "modularmonolith"]
+	path = modularmonolith
+	url = https://github.com/farhan5248/modularmonolith.git
