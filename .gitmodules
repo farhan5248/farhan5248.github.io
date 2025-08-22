@@ -4,6 +4,6 @@
 [submodule "demingdriventesting"]
 	path = demingdriventesting
 	url = https://github.com/farhan5248/demingdriventesting.git
-[submodule "modularmonolith"]
-	path = modularmonolith
-	url = https://github.com/farhan5248/modularmonolith.git
+[submodule "specificationbyprompt"]
+	path = specificationbyprompt
+	url = https://github.com/farhan5248/specificationbyprompt.git

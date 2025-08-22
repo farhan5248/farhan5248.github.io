@@ -30,6 +30,6 @@ I think this approach is best in the beginning so testers can get started using 
 This project serves 2 purposes. One is to demonstrate how the code would be implemented as services. 
 The second is to demonstrate how a monolithic code base is split into micro-services following an event-driven architecture. 
 This was the original problem I was trying to solve, break up a large monolithic platform and have the QA tests executed earlier.
-I'll document more about this in the [Modular Monolith site](/modularmonolith)
+I'll document more about this in the [Specification By Prompt site](/specificationbyprompt)
    - **sheep-dog-dev-svc**: Currently wraps **sheep-dog-dev** as a Spring Boot service. This is going to be changed over the next few months to be several services and include **sheep-dog-test**.
    - **sheep-dog-dev-svc-maven-plugin**: Maven plug-in for **sheep-dog-dev-svc**.

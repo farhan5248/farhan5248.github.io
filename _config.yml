@@ -68,6 +68,6 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
    - demingdriventesting/
-   - modularmonolith/
+   - specificationbyprompt/
    - sheepdogblog/
 

@@ -18,7 +18,8 @@ The about section of each of the 4 sites goes into more detail but here's the su
 
 3. [**Sheep Dog Blog**:](sheepdogblog) I've selected certain episodes from podcasts I listen to with notes about what is relevant to doing the QA transformation.
 
-4. [**Modular Monolith**:](modularmonolith) This describes how I would go about breaking up a monolithic ESB.
+4. [**Specification By Prompt**:](specificationbyprompt) This describes how I would go about breaking up a monolith by using the QA team's natural language DSL. 
+Each feature file would be treated as a prompt for Claude code to write the code from scratch. I need to clean-up the code first and document design choices etc, with help from Claude of course :).
 
 # Documentation
 
