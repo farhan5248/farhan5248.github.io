@@ -31,7 +31,9 @@
       "Bash(bundle list:*)",
       "WebFetch(domain:github.com)",
       "Bash(bundle exec:*)",
-      "Bash(gem:*)"
+      "Bash(gem:*)",
+      "Bash(sed:*)",
+      "Bash(find:*)"
     ],
     "deny": [],
     "ask": [],

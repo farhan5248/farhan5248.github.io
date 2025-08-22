@@ -25,10 +25,10 @@ Eventually when the opportunity presented itself, I decided to lead a large QA t
 That one QA team initially had 4 QA teams of almost 50-60 individuals with teams in Canada, India and the Philippines.
 
 Looking back at my career, though I first started with automating deployments, in hindsight I should have started with changing the way we did testing.
-I'd say it's for similar reasons as described in [this episode of Software Delivery in Small Batches](https://smallbatches.fm/107). 
+I'd say it's for similar reasons as described in [this episode of Software Delivery in Small Batches][1]. 
 Just as TDD is skill zero, helping the QA teams evolve should be one of the first priorities so that you have a system of shorter feedback loops.
 
-So if you've read some of the [books that I've read or listened to the podcasts](/sheepdogblog/books) and you're interested in reading about examples of how they were applied when leading a QA team down this path then perhaps this helps you.
+So if you've read some of the [books that I've read or listened to the podcasts][2] and you're interested in reading about examples of how they were applied when leading a QA team down this path then perhaps this helps you.
 
 # How I'm trying to share the knowledge
 
@@ -48,13 +48,18 @@ Hopefully this makes it easier for someone else who's interested in doing simila
 *Not a sheep dog, but my Woolly Malamute*
 
 Originally the approach I took was inspired by the Improvement Kata which is described in Mike Rother's book, Toyota Kata.
-Later when I heard [Ryan Tierney (Lean Made Simple podcast)](https://youtube.com/clip/UgkxesmBzvq8mTLdD9ATv4epw1bAVDz6Ln6x?si=LrO6ScEXzI4-VbAV) use the sheep dog analogy, it resonated with me since I'm a dog person. 
+Later when I heard [Ryan Tierney (Lean Made Simple podcast)][3] use the sheep dog analogy, it resonated with me since I'm a dog person. 
 Basically if you send in a bulldog to do the job, it runs into the middle of the flock barking and disrupting everything. 
 With a sheep dog, you never see it; you see the grass around the sheep move, you see the sheep move and everything happens quietly and peacefully. 
 
 When I thought about how to transform my team, I realised heroic effort was unsustainable and big bang changes were bound to be too much effort. 
-Instead it had to be this gradual organic evolution of our ways of working similar to a sheep dog moving a flock. I came across this quote in [Sys-Tao](https://sys-tao.org/the-book/) that also captures it: 
+Instead it had to be this gradual organic evolution of our ways of working similar to a sheep dog moving a flock. I came across this quote in [Sys-Tao][4] that also captures it: 
 
 > A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: we did it ourselves. 
 > 
 > — Lao Tzu
+
+[1]: https://smallbatches.fm/107
+[2]: /sheepdogblog/books
+[3]: https://youtube.com/clip/UgkxesmBzvq8mTLdD9ATv4epw1bAVDz6Ln6x?si=LrO6ScEXzI4-VbAV
+[4]: https://sys-tao.org/the-book/
