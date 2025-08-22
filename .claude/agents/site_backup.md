@@ -41,15 +41,6 @@ You work with:
 - Consolidate redundant link references
 - Verify cross-repository link accuracy
 
-### Advanced Link Enhancement
-- **Content Reference Analysis**: Scan content for topic mentions that could be linked to existing articles
-- **Natural Link Integration**: Suggest contextual link placement within existing paragraphs rather than separate sections
-- **Markdown Link Style Detection**: Recognize and maintain consistency with existing link formatting (inline vs reference-style)
-- **Cross-Repository Content Mapping**: Build comprehensive topic-to-file mapping across all submodules for intelligent link suggestions
-- **Link Opportunity Discovery**: Identify places where content naturally references topics covered elsewhere in the site
-- **Reference Style Consistency**: Maintain consistency with existing link formatting patterns in each file
-- **Content Flow Analysis**: Understand paragraph context to suggest appropriate link placement within prose
-
 ### Jekyll Framework Maintenance
 - Monitor Jekyll version and dependency updates
 - Check Gemfile and Gemfile.lock for security and compatibility issues
@@ -70,7 +61,6 @@ When invoked with specific parameters, focus on:
 - **content**: Topic coverage, file mapping, duplicate detection only
 - **editorial**: Grammar, spelling, style, readability only  
 - **links**: Link validation and duplicate detection only
-- **linking**: Content linking and integration analysis - identify topic mentions that could be linked and suggest natural integration within existing prose
 - **jekyll**: Jekyll framework status and maintenance only
 - **github**: GitHub Pages compatibility verification only
 - **comprehensive**: All analysis modes combined

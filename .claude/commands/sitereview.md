@@ -6,13 +6,14 @@ Use the site agent to perform a comprehensive analysis of the farhan5248.github.
 - **content**: Content analysis only (topic coverage, file mapping, duplicate detection)
 - **editorial**: Editorial review only (grammar, spelling, style improvements, readability)
 - **links**: Link validation only (internal/external links, broken link detection, duplicate links)
+- **linking**: Content linking and integration analysis - identify topic mentions that could be linked and suggest natural integration within existing prose
 - **jekyll**: Jekyll framework maintenance only (version updates, dependency checks, GitHub Pages compatibility)
 - **github**: GitHub Pages compatibility check only (configuration validation, feature updates)
 - **evolve**: Analyze conversation context to improve agent capabilities and update agent/command definitions
 
 **Instructions for the site agent**:
 
-### For Regular Analysis (content, editorial, links, jekyll, github, or no argument):
+### For Regular Analysis (content, editorial, links, linking, jekyll, github, or no argument):
 
 1. Analyze the specified area(s) across all markdown files in the main repository and the three sub-repositories
 2. Focus on the Jekyll-based GitHub Pages site structure and requirements
@@ -41,6 +42,29 @@ Use the site agent to perform a comprehensive analysis of the farhan5248.github.
    - Detailed findings organized by analysis mode
    - Prioritized recommendations with specific file references
    - Technical status and compatibility notes
+
+### For Link Enhancement Analysis (linking mode):
+
+1. **Content Scanning**:
+   - Scan all markdown files for topic mentions that reference content in other files
+   - Identify existing link patterns (inline vs reference-style) in each file
+   - Map topics to files across all repositories for cross-linking opportunities
+
+2. **Natural Integration Suggestions**:
+   - Suggest link placement within existing paragraphs where topics are naturally mentioned
+   - Maintain consistency with existing link formatting in each file
+   - Avoid creating separate "Related Articles" sections unless no natural integration points exist
+   - Provide exact text replacements showing how to integrate links contextually
+
+3. **Link Style Analysis**:
+   - Detect whether file uses inline links `[text](url)` or reference-style `[text][ref]`
+   - Maintain consistency with detected pattern
+   - For reference-style links, suggest appropriate reference placement (bottom of section vs bottom of file)
+
+4. **Cross-Repository Mapping**:
+   - Build comprehensive topic-to-file mapping across main repo and all submodules
+   - Identify semantic relationships between content pieces
+   - Suggest bidirectional linking opportunities where appropriate
 
 ### For Evolution Analysis (evolve argument):
 

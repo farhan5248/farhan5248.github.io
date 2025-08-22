@@ -14,11 +14,11 @@ The about section of each of the 4 sites goes into more detail but here's the su
 
 1. **farhan5248**: It's just this page and the about, a list of books and Git repos. It's to give an overview of the work and my background.
 
-2. [**Deming Driven Testing**:](demingdriventesting) Covers what the problem was, how I solved it while on the QA team and how I'd do it again.
+2. [**Deming Driven Testing (DDT)**:](demingdriventesting) Covers what the problem was, how I solved it while on the QA team and how I'd do it again.
 
 3. [**Sheep Dog Blog**:](sheepdogblog) I've selected certain episodes from podcasts I listen to with notes about what is relevant to doing the QA transformation.
 
-4. [**Specification By Prompt**:](specificationbyprompt) This describes how I would go about breaking up a monolith by using the QA team's natural language DSL. 
+4. [**Specification By Prompt (SBP)**:](specificationbyprompt) This describes how I would go about breaking up a monolith by using the QA team's natural language DSL. 
 Each feature file would be treated as a prompt for Claude code to write the code from scratch. I need to clean-up the code first and document design choices etc, with help from Claude of course :).
 
 # Documentation
