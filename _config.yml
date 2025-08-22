@@ -57,6 +57,7 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
+  - site-review-report.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
