@@ -17,9 +17,30 @@ Use the site agent to perform a comprehensive analysis of the farhan5248.github.
 1. Analyze the specified area(s) across all markdown files in the main repository and the three sub-repositories
 2. Focus on the Jekyll-based GitHub Pages site structure and requirements
 3. Provide actionable recommendations with specific file paths and line numbers
-4. Generate a prioritized report with concrete next steps
-5. Consider the site's focus on QA testing, Deming principles, and software development best practices
-6. Ensure all suggestions maintain content quality and technical compatibility
+4. **Always save analysis results to `site-review-report.md`** with timestamp and analysis type
+5. **Automatically ensure Jekyll exclusion**: Check and update `_config.yml` to exclude report files from build
+6. Generate a prioritized report with concrete next steps
+7. Consider the site's focus on QA testing, Deming principles, and software development best practices
+8. Ensure all suggestions maintain content quality and technical compatibility
+
+### Report Output Process:
+
+1. **File Management**: 
+   - Create or append to `site-review-report.md` in repository root
+   - Add timestamp header with analysis type and date
+   - Use clear section breaks between different analysis runs
+
+2. **Jekyll Configuration**:
+   - Check `_config.yml` exclude list for `site-review-report.md`
+   - Add to exclude list if not present to prevent Jekyll build inclusion
+   - Validate exclusion doesn't conflict with existing configuration
+
+3. **Report Structure**:
+   - Header with analysis metadata (type, timestamp, git status)
+   - Executive summary of key findings
+   - Detailed findings organized by analysis mode
+   - Prioritized recommendations with specific file references
+   - Technical status and compatibility notes
 
 ### For Evolution Analysis (evolve argument):
 
@@ -102,6 +123,8 @@ Use the site agent to perform a comprehensive analysis of the farhan5248.github.
 **Expected Output**:
 
 ### For Regular Analysis:
+- **Report file created/updated**: `site-review-report.md` with timestamped analysis results
+- **Jekyll configuration verified**: `_config.yml` updated to exclude report files if needed
 - Summary of findings organized by analysis type
 - Specific issues identified with file locations
 - Actionable recommendations ranked by priority

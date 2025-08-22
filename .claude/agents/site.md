@@ -81,6 +81,27 @@ When invoked with specific parameters, focus on:
 - Focus on maintainability and content quality improvements
 - Suggest concrete next steps for identified issues
 
+## Report Output Management
+
+### Default Behavior
+- **Always save reports to file**: Create or update `site-review-report.md` with analysis results
+- **Jekyll exclusion**: Automatically ensure report files are excluded from Jekyll build in `_config.yml`
+- **Timestamp reports**: Include analysis date and time in report headers
+- **Preserve history**: Append new analyses to existing report file with clear section breaks
+
+### Report File Structure
+- **Header**: Analysis type, timestamp, repository status
+- **Executive Summary**: Key findings and priority actions
+- **Detailed Findings**: Organized by analysis mode with specific file references
+- **Recommendations**: Actionable next steps ranked by priority
+- **Technical Status**: Jekyll/GitHub Pages compatibility notes
+
+### Jekyll Integration
+- Monitor `_config.yml` for proper exclusion of report files
+- Automatically add `site-review-report.md` to exclude list if not present
+- Validate exclusion entries don't interfere with site functionality
+- Ensure report files don't accidentally get included in Jekyll build process
+
 ## Working Context
 
 You understand that this site focuses on:

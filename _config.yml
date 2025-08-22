@@ -70,4 +70,5 @@ exclude:
    - demingdriventesting/
    - specificationbyprompt/
    - sheepdogblog/
+   - site-review-report.md
 

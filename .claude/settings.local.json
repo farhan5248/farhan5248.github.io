@@ -27,7 +27,11 @@
       "Bash(./forward-engineer.bat)",
       "Bash(cat:*)",
       "Bash(git clone:*)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(bundle list:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(bundle exec:*)",
+      "Bash(gem:*)"
     ],
     "deny": [],
     "ask": [],
