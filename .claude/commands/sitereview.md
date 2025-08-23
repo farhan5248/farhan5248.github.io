@@ -9,6 +9,11 @@ Use the site agent to perform a comprehensive analysis of the farhan5248.github.
 - **linking**: Content linking and integration analysis - identify topic mentions that could be linked and suggest natural integration within existing prose
 - **jekyll**: Jekyll framework maintenance only (version updates, dependency checks, GitHub Pages compatibility)
 - **github**: GitHub Pages compatibility check only (configuration validation, feature updates)
+- **structure**: Directory and file organization analysis (file placement, naming patterns, structural optimization)
+- **naming**: File naming consistency analysis and bulk correction (spaces, case, conventions)  
+- **maintenance**: Comprehensive site maintenance (file operations, structural changes, cleanup)
+- **refactor**: Large-scale structural changes (directory reorganization, bulk renames with reference preservation)
+- **preview [mode]**: Generate change preview for any mode that involves file operations (use with structure, naming, maintenance, or refactor)
 - **evolve**: Analyze conversation context to improve agent capabilities and update agent/command definitions
 
 **Instructions for the site agent**:
@@ -65,6 +70,40 @@ Use the site agent to perform a comprehensive analysis of the farhan5248.github.
    - Build comprehensive topic-to-file mapping across main repo and all submodules
    - Identify semantic relationships between content pieces
    - Suggest bidirectional linking opportunities where appropriate
+
+### For Structural Operations (structure, naming, maintenance, refactor modes):
+
+1. **Analysis Phase**:
+   - Scan entire repository structure and identify issues
+   - Build comprehensive file and reference mapping
+   - Detect naming convention violations and structural problems
+   - Generate detailed change recommendations with impact analysis
+
+2. **Preview Generation**:
+   - Show all planned changes before execution
+   - List files to be renamed/moved with before/after names
+   - Identify all references that will be updated
+   - Estimate operation complexity and time requirements
+   - Highlight any potential conflicts or issues
+
+3. **Safety Validation**:
+   - Check Jekyll build compatibility of planned changes
+   - Verify GitHub Pages will handle structural modifications
+   - Identify any special files that need careful handling
+   - Validate no circular references or broken links will result
+
+4. **Execution Phase** (only with user confirmation):
+   - Perform file operations with progress reporting
+   - Update all detected references automatically
+   - Validate changes don't break Jekyll build
+   - Generate final report of completed changes
+   - Provide rollback information if issues arise
+
+5. **Post-Operation Verification**:
+   - Run Jekyll build test to ensure site still generates
+   - Validate all links still work correctly
+   - Check for any orphaned files or references
+   - Generate completion report with any issues found
 
 ### For Evolution Analysis (evolve argument):
 

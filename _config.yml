@@ -57,7 +57,10 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - site-review-report.md
+   - demingdriventesting/
+   - specificationbyprompt/
+   - sheepdogblog/
+   - site-review-report.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -68,8 +71,5 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-   - demingdriventesting/
-   - specificationbyprompt/
-   - sheepdogblog/
-   - site-review-report.md
+
 

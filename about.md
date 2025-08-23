@@ -45,12 +45,13 @@ Hopefully this makes it easier for someone else who's interested in doing simila
 # Why Sheep Dog? 
   
 ![Sheep Dog](assets/images/sheepdog.jpg)
-*Not a sheep dog, but my Woolly Malamute*
+*My Woolly Malamute. Not a sheep dog, but woolly enough to be one*
 
 Originally the approach I took was inspired by the Improvement Kata which is described in Mike Rother's book, Toyota Kata.
 Later when I heard [Ryan Tierney (Lean Made Simple podcast)][3] use the sheep dog analogy, it resonated with me since I'm a dog person. 
 Basically if you send in a bulldog to do the job, it runs into the middle of the flock barking and disrupting everything. 
 With a sheep dog, you never see it; you see the grass around the sheep move, you see the sheep move and everything happens quietly and peacefully. 
+So the tools I developed serve as a sheep-dog would to a shepperd, they're meant to gradually move a team.
 
 When I thought about how to transform my team, I realised heroic effort was unsustainable and big bang changes were bound to be too much effort. 
 Instead it had to be this gradual organic evolution of our ways of working similar to a sheep dog moving a flock. I came across this quote in [Sys-Tao][4] that also captures it: 
