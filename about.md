@@ -61,6 +61,6 @@ Instead it had to be this gradual organic evolution of our ways of working simil
 > — Lao Tzu
 
 [1]: https://smallbatches.fm/107
-[2]: /sheepdogblog/books
+[2]: /books/
 [3]: https://youtube.com/clip/UgkxesmBzvq8mTLdD9ATv4epw1bAVDz6Ln6x?si=LrO6ScEXzI4-VbAV
 [4]: https://sys-tao.org/the-book/

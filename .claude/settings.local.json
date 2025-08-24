@@ -33,7 +33,9 @@
       "Bash(bundle exec:*)",
       "Bash(gem:*)",
       "Bash(sed:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(copy:*)",
+      "Bash(jekyll build:*)"
     ],
     "deny": [],
     "ask": [],

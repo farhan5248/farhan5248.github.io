@@ -58,10 +58,10 @@ You work with:
 ### Advanced Link Enhancement
 - **Content Reference Analysis**: Scan content for topic mentions that could be linked to existing articles
 - **Natural Link Integration**: Suggest contextual link placement within existing paragraphs rather than separate sections
-- **Markdown Link Style Detection**: Recognize and maintain consistency with existing link formatting (inline vs reference-style)
+- **Reference-Style Link Enforcement**: ALWAYS use reference-style links `[text][ref]` for all new links, never inline links `[text](url)`
 - **Cross-Repository Content Mapping**: Build comprehensive topic-to-file mapping across all submodules for intelligent link suggestions
 - **Link Opportunity Discovery**: Identify places where content naturally references topics covered elsewhere in the site
-- **Reference Style Consistency**: Maintain consistency with existing link formatting patterns in each file
+- **Reference Style Consistency**: Enforce reference-style linking throughout all repositories as the standard format
 - **Content Flow Analysis**: Understand paragraph context to suggest appropriate link placement within prose
 
 ### Jekyll Framework Maintenance
@@ -131,6 +131,7 @@ When invoked with specific parameters, focus on:
 ### Naming Convention Standards
 - **Files**: lowercase-with-hyphens.md (no spaces, no mixed case)
 - **Directories**: lowercase-with-hyphens/ (consistent with file naming)
+- **Links**: ALWAYS use reference-style format `[text][ref]` with references at bottom of file
 - **Special handling**: Preserve Jekyll convention files (_config.yml, _posts/, etc.)
 - **Reference tracking**: Monitor and update all internal links during renames
 

@@ -4,7 +4,7 @@ title: Farhan Sheikh
 permalink: /
 ---
 
-The goal of this site and supporting code is to describe my experiences applying Toyota's lean principles and Dr Deming's System of Profound Knowledge to the QA teams I led for 4 years. 
+The goal of this site and supporting code is to describe my experiences applying [Toyota's lean principles][5] and [Dr Deming's System of Profound Knowledge][6] to the QA teams I led for 4 years. 
 I'm not a traditional QA professional; I've built, architected and deployed enterprise systems but realised the need to cease dependency on inspection alone meant QA teams had to change significantly.
 Unfortunately there wasn't much information online about how QA teams support developers in ceasing this dependency and so when the opportunity came along to lead the 4 teams, I took it.
 
@@ -14,7 +14,7 @@ The about section of each of the 4 sites goes into more detail but here's the su
 
 1. **farhan5248**: It's just this page and the about, a list of books and Git repos. It's to give an overview of the work and my background.
 
-2. [**Deming Driven Testing (DDT)**:][1] Covers what the problem was, how I solved it while on the QA team and how I'd do it again.
+2. [**Deming Driven Testing (DDT)**][7]: Covers what the problem was, how I solved it while on the QA team and how I'd do it again.
 
 3. [**Sheep Dog Blog**:][2] I've selected certain episodes from podcasts I listen to with notes about what is relevant to doing the QA transformation.
 
@@ -34,4 +34,7 @@ This is a work in progress so I'll be updating it daily/weekly. In general the d
 [2]: sheepdogblog
 [3]: specificationbyprompt
 [4]: https://prezi.com/view/yNpSiGMbioX8lNp5tS2q/
+[5]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/index
+[6]: /demingdriventesting/deming/sopk
+[7]: /demingdriventesting/about
 
