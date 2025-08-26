@@ -35,7 +35,10 @@
       "Bash(sed:*)",
       "Bash(find:*)",
       "Bash(copy:*)",
-      "Bash(jekyll build:*)"
+      "Bash(jekyll build:*)",
+      "mcp__github__get_me",
+      "mcp__github__search_issues",
+      "mcp__github__get_file_contents"
     ],
     "deny": [],
     "ask": [],
