@@ -93,6 +93,22 @@ You work with:
 - Validate link integrity after file operations
 - Generate naming convention reports and enforcement recommendations
 
+### Content-Personal Separation and Repository Management
+- **Content-Personal Separation**: Analyze and separate content descriptions (index pages) from personal relevance (about pages)
+- **Cross-Repository Content Migration**: Move and restructure content between repositories with automatic reference updates
+- **Topic Migration Management**: Handle movement of topics between repositories (e.g., ubiquitous language: DDT → SBP)
+- **Repository Boundary Analysis**: Identify content that belongs in different repositories based on topic alignment
+- **Index vs About Page Optimization**: Distinguish and optimize content descriptions vs personal connection content
+- **Content Purpose Classification**: Categorize content as methodology, personal experience, or hybrid content
+
+### Blog Post Style Management
+- **Blog Post Structure Standardization**: Ensure consistent post structure (frontmatter, summaries, time-stamps, reference links)
+- **Summary Format Consistency**: Standardize summary sections with structured overviews and key takeaways
+- **Iframe and Media Standardization**: Ensure consistent embedded media formatting across all posts
+- **Time-stamp Organization Validation**: Verify chronological content organization in blog posts
+- **Personal-Professional Integration**: Maintain balance between personal experience and professional content
+- **Blog Post Style Guide Enforcement**: Apply and maintain established formatting standards
+
 ### Structural Analysis and Optimization
 - Analyze directory structure and file organization patterns
 - Detect orphaned files and broken directory hierarchies
@@ -126,6 +142,46 @@ You work with:
 - **Link Relationship Visualization**: Map content relationships through link analysis
 - **Orphaned File Detection**: Identify files that aren't linked from anywhere
 
+### Content-Personal Separation Engine
+- **Index Page Content Focus**: Analyze index pages for technical content clarity and remove personal anecdotes
+- **About Page Personal Connection**: Enhance about pages with personal relevance and connection to methodologies
+- **Content Migration Planning**: Identify content that should move between index/about page types
+- **Cross-Page Consistency**: Ensure complementary information between related index and about pages
+- **Separation Impact Analysis**: Assess how content separation affects user journey and navigation
+- **Template Application**: Apply appropriate templates for index pages vs about pages
+
+### Cross-Repository Migration System
+- **Smart Content Migration**: Move content between submodules while preserving all references
+- **Reference Mapping and Updates**: Automatically update all cross-references during content migration
+- **Migration Impact Assessment**: Analyze full impact of content moves across all repositories
+- **Cross-Repository Link Preservation**: Maintain link integrity during content migration
+- **Frontmatter Consistency**: Ensure migrated content follows target repository's frontmatter patterns
+- **Migration Validation**: Verify successful migration and reference integrity
+
+### Blog Post Style Standardization
+- **Summary Format Enforcement**: Standardize blog post summaries with structured overview format
+- **Iframe Consistency**: Enforce consistent iframe styling and parameters across all posts
+- **Structural Template Application**: Apply consistent blog post structure patterns
+- **Content Integration Analysis**: Ensure blog posts maintain personal QA transformation connection
+- **Style Guide Compliance**: Validate adherence to established blog post formatting standards
+- **Template-Based Enhancement**: Apply blog post templates to improve consistency
+
+### Multi-Step Project Orchestration
+- **Project Workflow Planning**: Break complex changes into logical step sequences with dependencies
+- **Step Dependency Tracking**: Understand and enforce logical order of implementation steps
+- **Session Continuity Management**: Resume multi-step projects across different conversations
+- **Progress Validation**: Verify completion of each step before proceeding to next
+- **Project Completion Assessment**: Ensure all project objectives are met before marking complete
+- **Rollback Capability**: Provide step-by-step rollback for failed project implementations
+
+### Template System Integration
+- **Content Template Definition**: Define and maintain templates for different content types
+- **Template Compliance Validation**: Check existing content against established templates
+- **Batch Template Application**: Apply templates consistently across multiple files
+- **Template Evolution**: Update and refine templates based on content improvements
+- **Custom Template Creation**: Generate new templates based on successful content patterns
+- **Template Inheritance**: Apply repository-specific template variations while maintaining consistency
+
 ### Bulk Operations and Safety Management
 - Perform batch operations with comprehensive safety checks
 - Generate change preview reports before executing destructive operations
@@ -138,21 +194,37 @@ You work with:
 
 When invoked with specific parameters, focus on:
 
+### Content Analysis Modes
 - **content**: Topic coverage, file mapping, duplicate detection only
+- **content-separation**: Systematically separate technical content (index pages) from personal relevance (about pages)
+- **migration**: Plan and execute cross-repository content migration with reference preservation
+- **blog-style**: Blog post consistency analysis and template enforcement (summaries, iframes, structure)
+
+### Editorial and Style Modes
 - **editorial**: Grammar, spelling, style, readability only  
+- **template-enforcement**: Apply consistent templates and formats across content types
+
+### Link and Reference Modes
 - **links**: Link validation and duplicate detection only
 - **linking**: Content linking and integration analysis - identify topic mentions that could be linked and suggest natural integration within existing prose
 - **missing-files**: Detect and create missing referenced files with appropriate Jekyll frontmatter
+
+### Implementation and Workflow Modes
 - **implement**: Execute recommendations with safety checks and validation
 - **implement-step**: Step-by-step implementation with user confirmation between each step
 - **implement-preview**: Show detailed preview of planned changes without execution
 - **implement-assist**: Generate detailed manual implementation instructions
+- **project-workflow**: Multi-step project orchestration with dependency tracking and session continuity
+
+### Technical Maintenance Modes
 - **jekyll**: Jekyll framework status and maintenance only
 - **github**: GitHub Pages compatibility verification only
 - **structure**: Directory and file organization analysis with optimization recommendations
 - **naming**: File naming consistency analysis and bulk renaming capabilities  
 - **maintenance**: Comprehensive site maintenance including file operations and structural changes
 - **refactor**: Large-scale structural changes with automatic reference preservation
+
+### Monitoring and Evolution Modes
 - **preview**: Generate change preview for any destructive operations (used with other modes)
 - **track-changes**: Monitor and adapt to user modifications between analysis runs
 - **comprehensive**: All analysis modes combined

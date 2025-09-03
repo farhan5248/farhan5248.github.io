@@ -6,6 +6,9 @@ Use the site agent to perform a comprehensive analysis of the farhan5248.github.
 
 - **No argument**: Perform complete comprehensive site audit covering all areas
 - **content**: Content analysis only (topic coverage, file mapping, duplicate detection)
+- **content-separation**: Analyze and plan separation of technical content (index pages) from personal relevance (about pages)
+- **repository-migration**: Plan and execute content movement between repositories with automatic reference updates
+- **blog-style**: Blog post structure and format standardization (summaries, iframes, timestamps)
 - **editorial**: Editorial review only (grammar, spelling, style improvements, readability)
 - **links**: Link validation only (internal/external links, broken link detection, duplicate links)
 - **linking**: Content linking and integration analysis - identify topic mentions that could be linked and suggest natural integration within existing prose
@@ -178,6 +181,71 @@ Use the site agent to perform a comprehensive analysis of the farhan5248.github.
    - Validate all links still work correctly
    - Check for any orphaned files or references
    - Generate completion report with any issues found
+
+### For Content-Personal Separation Analysis (content-separation mode):
+
+1. **Index vs About Page Analysis**:
+   - Scan index.md files for technical methodology content mixed with personal relevance
+   - Identify about.md files that focus on content descriptions rather than personal connection
+   - Map content that needs migration between index and about pages
+   - Analyze consistency of content purpose across repositories
+
+2. **Content Purpose Classification**:
+   - Classify content as methodology, personal experience, or hybrid content
+   - Identify technical concepts that should be content-focused (index pages)
+   - Identify personal transformation stories that should be experience-focused (about pages)
+   - Suggest optimal content distribution between page types
+
+3. **Repository Alignment Assessment**:
+   - Verify each repository's index page focuses on methodology/content description
+   - Verify each repository's about page focuses on personal relevance and transformation
+   - Identify content misalignment and suggest reorganization
+
+### For Repository Migration Analysis (repository-migration mode):
+
+1. **Cross-Repository Content Mapping**:
+   - Identify content that belongs in different repositories based on topic alignment
+   - Map topics currently in wrong repositories (e.g., ubiquitous language in DDT vs SBP)
+   - Build migration plan preserving all internal and external references
+   - Assess impact of content movement on site structure
+
+2. **Migration Planning**:
+   - Generate step-by-step migration plan with dependency handling
+   - Identify all files that reference content to be moved
+   - Plan automatic reference updates across all repositories
+   - Estimate migration complexity and potential issues
+
+3. **Reference Preservation Strategy**:
+   - Map all references to content scheduled for migration
+   - Plan URL redirects where necessary for external links
+   - Ensure Jekyll build compatibility throughout migration
+   - Validate no broken links result from content movement
+
+### For Blog Style Analysis (blog-style mode):
+
+1. **Structure Consistency Check**:
+   - Verify all blog posts follow standard structure (frontmatter, Spotify embed, summary, timestamps, references)
+   - Identify posts with missing or inconsistent structural elements
+   - Check time-stamp organization and chronological flow
+   - Validate frontmatter completeness and consistency
+
+2. **Summary Standardization**:
+   - Analyze summary sections for format consistency
+   - Identify summaries that need structured overview format
+   - Check for summaries that focus on content preview vs personal preference
+   - Generate recommendations for summary improvements
+
+3. **Media Format Standardization**:
+   - Check iframe consistency (dimensions, parameters, styling)
+   - Identify media elements that don't follow standard formatting
+   - Suggest standardized formats for embedded content
+   - Validate accessibility and loading performance of media
+
+4. **Style Guide Enforcement**:
+   - Apply established blog post formatting standards
+   - Check for consistent tone, voice, and technical presentation
+   - Validate reference-style linking throughout posts
+   - Ensure professional-personal balance in content integration
 
 ### For Evolution Analysis (evolve argument):
 
