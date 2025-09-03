@@ -1,0 +1,74 @@
+=== LINK VALIDATION REPORT ===
+Total markdown files: 65
+
+=== LINK TYPE ANALYSIS ===
+Inline links found: 14
+Reference links found: 232
+Reference definitions found: 231
+
+=== POTENTIAL BROKEN INTERNAL LINKS ===
+Checking relative paths that may be broken...
+=== CHECKING FOR SPECIFIC LINK PROBLEMS ===
+
+Checking sheepdogblog _posts for link case sensitivity issues:
+sheepdogblog/_posts/2025-07-24-creating-pull-in-your-factory.md:> I mapped the 8 wastes to the QA inspection process [here][1]:
+sheepdogblog/_posts/2025-07-24-creating-pull-in-your-factory.md:> Studying the fluctuations was where [SPC][2] came in; I wanted the process of inspection under statistical control. 
+sheepdogblog/_posts/2025-07-24-creating-pull-in-your-factory.md:> The tree analogy reminds me of [the cart with square wheels comic][12]  .
+sheepdogblog/_posts/2025-07-24-creating-pull-in-your-factory.md:> How to free-up the time of an [overburdened tester who's busy][11] with their own work or helping put out fires? One way is by adhering to standards.  
+sheepdogblog/_posts/2025-07-24-creating-pull-in-your-factory.md:> This is where the ubiquitous language came in; it was to [standardize work][3] and then reap the benefits.  
+
+Checking for reference definitions:
+sheepdogblog/_posts/2025-07-24-creating-pull-in-your-factory.md:[1]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Muda
+sheepdogblog/_posts/2025-07-24-creating-pull-in-your-factory.md:[2]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Mura
+sheepdogblog/_posts/2025-07-24-creating-pull-in-your-factory.md:[3]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/standardized-work
+sheepdogblog/_posts/2025-07-24-creating-pull-in-your-factory.md:[4]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Gemba
+sheepdogblog/_posts/2025-07-24-creating-pull-in-your-factory.md:[5]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Kaizen
+
+=== BROKEN INTERNAL LINKS FOUND ===
+BROKEN LINKS IN SHEEPDOGBLOG _POSTS:
+File: 2025-07-24-creating-pull-in-your-factory.md
+- [1] points to: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Muda
+  SHOULD BE: /demingdriventesting/migrating-from-defect-inspection-to-prevention/muda
+- [2] points to: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Mura
+  SHOULD BE: /demingdriventesting/migrating-from-defect-inspection-to-prevention/mura
+- [4] points to: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Gemba
+  SHOULD BE: /demingdriventesting/migrating-from-defect-inspection-to-prevention/gemba
+- [5] points to: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Kaizen
+  SHOULD BE: /demingdriventesting/migrating-from-defect-inspection-to-prevention/kaizen
+- [6] points to: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Jidoka
+  SHOULD BE: /demingdriventesting/migrating-from-defect-inspection-to-prevention/jidoka
+
+ADDITIONAL BROKEN LINKS IN: sheepdogblog/_posts/2025-07-24-creating-pull-in-your-factory.md
+[1]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Muda
+[2]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Mura
+[4]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Gemba
+[5]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Kaizen
+[6]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Jidoka
+[9]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Kanban
+[10]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Heijunka
+[11]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Muri
+ADDITIONAL BROKEN LINKS IN: sheepdogblog/_posts/2025-08-04-how-we-made-minecraft-using-continuous-delivery.md
+[5]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Kaizen
+[14]: https://www.youtube.com/watch?v=EZ05e7EMOLM
+
+=== MISSING REFERENCE DEFINITIONS ===
+Reference links found: 232
+Reference definitions found: 231
+DISCREPANCY: 1 reference link without definition
+
+Missing reference [22] in:
+./books.md:2. [Software Delivery in Small Batches][22]
+./sheepdogblog/_posts/2025-08-04-how-we-made-minecraft-using-continuous-delivery.md:The goal was to reduce the waste after identifying the overburden that caused the fluctuation or in lean terms, reduce [muda][20] after identifying [muri][6] that caused the [mura][22].
+
+=== INLINE LINKS FOUND (SHOULD BE CONVERTED TO REFERENCE STYLE) ===
+./.claude/agents/site.md:- **Reference-Style Link Enforcement**: ALWAYS use reference-style links `[text][ref]` for all new links, never inline links `[text](url)`
+./.claude/commands/sitereview.md:   - Detect whether file uses inline links `[text](url)` or reference-style `[text][ref]`
+./about.md:![Sheep Dog](assets/images/sheepdog.jpg)
+./demingdriventesting/what-led-me-to-a-qa-team/index.md:1. [The Awesome Machine](the-awesome-machine)
+./demingdriventesting/what-led-me-to-a-qa-team/index.md:2. [Tree Swing](tree-swing)
+./demingdriventesting/what-led-me-to-a-qa-team/index.md:3. [Maginot Line](maginot-line)
+./demingdriventesting/what-led-me-to-a-qa-team/index.md:4. [Shift Left Testing](shift-left-testing)
+./demingdriventesting/what-led-me-to-a-qa-team/index.md:5. [Setting a Good Example](setting)
+./demingdriventesting/why-run-the-qa-tests-earlier/does-it-matter-if-the-tests-actually-drive-the-development.md:I had mentioned in [Does running the QA team tests during coding slow developers down?](does-running-the-qa-team-tests-during-coding-slow-developers-down) that one developer was practicing red-green-refactor.
+./demingdriventesting/why-run-the-qa-tests-earlier/index.md:1. [Can QA tests be run against an incomplete system?](can-qa-tests-be-run-against-an-incomplete-system)
+

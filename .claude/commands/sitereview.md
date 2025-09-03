@@ -9,6 +9,11 @@ Use the site agent to perform a comprehensive analysis of the farhan5248.github.
 - **editorial**: Editorial review only (grammar, spelling, style improvements, readability)
 - **links**: Link validation only (internal/external links, broken link detection, duplicate links)
 - **linking**: Content linking and integration analysis - identify topic mentions that could be linked and suggest natural integration within existing prose
+- **missing-files**: Detect and create missing referenced files with appropriate Jekyll frontmatter
+- **implement**: Execute recommendations with safety checks and validation
+- **implement-step**: Step-by-step implementation with user confirmation between each step
+- **implement-preview**: Show detailed preview of planned changes without execution
+- **implement-assist**: Generate detailed manual implementation instructions
 - **jekyll**: Jekyll framework maintenance only (version updates, dependency checks, GitHub Pages compatibility)
 - **github**: GitHub Pages compatibility check only (configuration validation, feature updates)
 - **structure**: Directory and file organization analysis (file placement, naming patterns, structural optimization)
@@ -16,12 +21,13 @@ Use the site agent to perform a comprehensive analysis of the farhan5248.github.
 - **maintenance**: Comprehensive site maintenance (file operations, structural changes, cleanup)
 - **refactor**: Large-scale structural changes (directory reorganization, bulk renames with reference preservation)
 - **preview [mode]**: Generate change preview for any mode that involves file operations (use with structure, naming, maintenance, or refactor)
+- **track-changes**: Monitor and adapt to user modifications between analysis runs
 - **comprehensive**: All analysis modes combined
 - **evolve**: Analyze conversation context to improve agent capabilities and update agent/command definitions
 
 **Instructions for the site agent**:
 
-### For Regular Analysis (content, editorial, links, linking, jekyll, github, comprehensive, or no argument):
+### For Regular Analysis (content, editorial, links, linking, missing-files, jekyll, github, track-changes, comprehensive, or no argument):
 
 1. Analyze the specified area(s) across all markdown files in the main repository and the three sub-repositories
 2. Focus on the Jekyll-based GitHub Pages site structure and requirements
@@ -43,8 +49,11 @@ Use the site agent to perform a comprehensive analysis of the farhan5248.github.
 **Report File Structure**:
 - **Header**: Analysis type, timestamp, repository status
 - **Executive Summary**: Key findings and priority actions
+- **Implementation Status**: Track which recommendations have been executed
+- **User Modifications**: Note changes made by user since last analysis
 - **Detailed Findings**: Organized by analysis mode with specific file references
 - **Recommendations**: Actionable next steps ranked by priority
+- **Remaining Tasks**: Clearly identify what still needs to be addressed
 - **Technical Status**: Jekyll/GitHub Pages compatibility notes
 
 ### For Link Enhancement Analysis (linking mode):
@@ -69,6 +78,72 @@ Use the site agent to perform a comprehensive analysis of the farhan5248.github.
    - Build comprehensive topic-to-file mapping across main repo and all submodules
    - Identify semantic relationships between content pieces
    - Suggest bidirectional linking opportunities where appropriate
+
+### For Implementation Operations (implement, implement-step, implement-preview, implement-assist modes):
+
+1. **Implementation Analysis**:
+   - Review existing site-review-report.md for pending recommendations
+   - Assess current state of all files and identify changes needed
+   - Build comprehensive change plan with dependencies and priorities
+   - Detect any user modifications since last analysis
+
+2. **Implementation Mode Selection**:
+   - **implement**: Execute all recommendations automatically with safety checks
+   - **implement-step**: Execute one recommendation at a time with user confirmation
+   - **implement-preview**: Show detailed preview of all planned changes without execution
+   - **implement-assist**: Generate step-by-step manual implementation instructions
+
+3. **Safety and Validation**:
+   - Validate all changes against Jekyll build requirements
+   - Check GitHub Pages compatibility for all modifications
+   - Preserve user modifications made since last analysis
+   - Generate rollback information for all changes
+
+4. **Progress Tracking**:
+   - Update site-review-report.md with implementation status
+   - Track completion of individual recommendations
+   - Note any issues or blockers encountered during implementation
+   - Maintain history of all changes made
+
+### For Missing File Operations (missing-files mode):
+
+1. **Reference Link Scanning**:
+   - Scan all markdown files for reference-style links `[text][ref]`
+   - Identify target files that don't exist
+   - Analyze link context to understand intended content purpose
+   - Map missing files across all repositories and submodules
+
+2. **Smart File Creation**:
+   - Create missing files with appropriate Jekyll frontmatter
+   - Generate meaningful starter content based on link context
+   - Follow existing site patterns for content structure
+   - Apply consistent frontmatter patterns from similar files
+
+3. **Content Structure Analysis**:
+   - Analyze the linking context to suggest appropriate content outline
+   - Consider site themes (QA testing, Deming principles, development practices)
+   - Generate placeholder content that aligns with site's focus areas
+   - Ensure created files integrate well with existing content
+
+### For Change Tracking Operations (track-changes mode):
+
+1. **Modification Detection**:
+   - Compare current file states with last analysis timestamp
+   - Identify all files modified since last site review
+   - Analyze the nature and scope of user modifications
+   - Assess impact of changes on existing recommendations
+
+2. **Adaptive Analysis**:
+   - Update analysis based on detected user modifications
+   - Adjust recommendations to build on user changes rather than conflict
+   - Identify new issues or improvements suggested by user modifications
+   - Re-prioritize recommendations based on current state
+
+3. **Integration Assessment**:
+   - Determine how user changes affect overall site consistency
+   - Identify opportunities to enhance or complete user modifications
+   - Suggest complementary changes that align with user modifications
+   - Update site-review-report.md to reflect current state and adapted recommendations
 
 ### For Structural Operations (structure, naming, maintenance, refactor modes):
 

@@ -62,6 +62,7 @@ exclude:
    - specificationbyprompt/
    - sheepdogblog/
    - site-review-report.md
+   - internal-link-validation-report.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

@@ -4,31 +4,21 @@ title: Farhan Sheikh
 permalink: /
 ---
 
-The goal of this site and supporting code is to describe my experiences applying [Toyota's lean principles][5] and [Dr Deming's System of Profound Knowledge][6] to the QA teams I led for 4 years. 
-I'm not a traditional QA professional; I've built, architected and deployed enterprise systems but realised the need to cease dependency on inspection alone meant QA teams had to change significantly.
-Unfortunately there wasn't much information online about how QA teams support developers in ceasing this dependency and so when the opportunity came along to lead the 4 teams, I took it.
+This site documents my experiences applying [Toyota's lean principles][5] and [Dr Deming's System of Profound Knowledge][6] to transform QA teams from inspection-based testing to prevention-focused methodologies. As a dev lead and systems architect who moved into QA leadership, I led the transformation of 4 QA teams over 4 years.
 
-# Sites
+Learn how QA teams can evolve their practices through four interconnected learning paths:
 
-The about section of each of the 4 sites goes into more detail but here's the summary.
-
-1. **farhan5248**: It's just this page and the about, a list of books and Git repos. It's to give an overview of the work and my background.
-
-2. [**Deming Driven Testing (DDT)**][7]: Covers what the problem was, how I solved it while on the QA team and how I'd do it again.
-
-3. [**Sheep Dog Blog**:][2] I've selected certain episodes from podcasts I listen to with notes about what is relevant to doing the QA transformation.
-
-4. [**Specification By Prompt (SBP)**:][3] This describes how I would go about breaking up a monolith by using the QA team's natural language DSL. 
-Each feature file would be treated as a prompt for Claude code to write the code from scratch. I need to clean-up the code first and document design choices etc, with help from Claude of course :).
-
-# Documentation
+1. [Main Site][8]: Transformation stories with code examples, visual documentation, and implementation resources
+2. [Deming Driven Testing (DDT)][7]: Step-by-step cultural and technical transformation methodology for QA teams moving from defect inspection to prevention
+3. [Sheep Dog Blog][2]: Curated podcast episodes with practical insights and notes supporting the DDT transformation approach
+4. [Specification By Prompt (SBP)][3]: Modern approach to breaking up monoliths using QA's natural language specifications with AI-assisted development tools
 
 This is a work in progress so I'll be updating it daily/weekly. In general the documentation is divided up as so:
-1. **farhan5248.github.io**: The stories of how the team transformed are here. I'm working to include references to example code in the Git repos and more pictures.
-2. **Prezi**: My first attempt at documentation was this [Prezi][4]. Unfortunately it's not searchable and was getting too big. I prefer Prezi as it's more visual so I'll update it to reflect the content in the Deming Driven Testing site. 
-3. **GitHub Repo README**: How to build and run the code.
-4. **GitHub Repo Wiki**: Explanations about why I designed things the way I did, roadmap of stuff that's left to implement and notes on how to create/modify the code for first time Xtext or Maven plug-in developers.
-5. **GitHub Repo sheep-dog-qa**: This has the usage notes on how the plug-ins work. It's both the test cases and user manual. I wanted it to be an example of living documentation.
+1. [Main Site Stories][8]: Team transformation stories with code references and pictures
+2. [Visual Documentation][4]: Visual Prezi documentation to be updated with DDT content
+3. [GitHub Repo README][9]: Instructions for building and running the code
+4. [GitHub Repo Wiki][10]: Design explanations, roadmap, and developer notes for Xtext/Maven
+5. [GitHub Repo sheep-dog-qa][11]: Plugin usage notes as living documentation and test cases
 
 [1]: demingdriventesting
 [2]: sheepdogblog
@@ -37,4 +27,8 @@ This is a work in progress so I'll be updating it daily/weekly. In general the d
 [5]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/index
 [6]: /demingdriventesting/deming/sopk
 [7]: /demingdriventesting/about
+[8]: /
+[9]: https://github.com/farhan5248/sheep-dog-main
+[10]: https://github.com/farhan5248/sheep-dog-main/wiki
+[11]: https://github.com/farhan5248/sheep-dog-qa
 
