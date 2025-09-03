@@ -9,7 +9,7 @@ This site documents my experiences applying [Toyota's lean principles][5] and [D
 Learn how QA teams can evolve their practices through four interconnected learning paths:
 
 1. [Main Site][8]: Transformation stories with code examples, visual documentation, and implementation resources
-2. [Deming Driven Testing (DDT)][7]: Step-by-step cultural and technical transformation methodology for QA teams moving from defect inspection to prevention
+2. [Deming Driven Testing (DDT)][1]: Step-by-step cultural and technical transformation methodology for QA teams moving from defect inspection to prevention
 3. [Sheep Dog Blog][2]: Curated podcast episodes with practical insights and notes supporting the DDT transformation approach
 4. [Specification By Prompt (SBP)][3]: Modern approach to breaking up monoliths using QA's natural language specifications with AI-assisted development tools
 
@@ -26,7 +26,6 @@ This is a work in progress so I'll be updating it daily/weekly. In general the d
 [4]: https://prezi.com/view/yNpSiGMbioX8lNp5tS2q/
 [5]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/index
 [6]: /demingdriventesting/deming/sopk
-[7]: /demingdriventesting/about
 [8]: /
 [9]: https://github.com/farhan5248/sheep-dog-main
 [10]: https://github.com/farhan5248/sheep-dog-main/wiki
