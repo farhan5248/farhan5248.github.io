@@ -39,5 +39,5 @@ I'll document more about this in the [Specification By Prompt site][5]
 [3]: https://github.com/farhan5248/sheep-dog-local
 [4]: https://github.com/farhan5248/sheep-dog-cloud
 [5]: /specificationbyprompt
-[6]: /specificationbyprompt/walkthrough-of-tools/ubiquitous-language-implementation
+[6]: /specificationbyprompt/walkthrough-of-tools/ubiquitous-language
 [7]: /demingdriventesting/about
