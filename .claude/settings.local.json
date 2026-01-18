@@ -52,7 +52,9 @@
       "mcp__github__get_me",
       "mcp__github__search_issues",
       "mcp__sheep-dog-dev__Clear_objects_for_AsciiDoctor_files",
-      "mcp__sheep-dog-dev__Get_alerts_for_a_state"
+      "mcp__sheep-dog-dev__Get_alerts_for_a_state",
+      "Bash(xargs ls:*)",
+      "Bash(node:*)"
     ],
     "deny": [],
     "ask": [],
